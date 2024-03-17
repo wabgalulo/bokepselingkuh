@@ -5,4 +5,4 @@ Disallow:
 # Allow all crawlers
 User-agent: *
 Allow: /
-Sitemap: https://bokepukhti.pages.dev/sitemap.xml
+Sitemap: https://bokeptube.pages.dev/sitemap.xml
