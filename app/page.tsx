@@ -7,7 +7,7 @@ import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
-  const canonicalUrl = (`https://kizie.co` + (router.asPath === "/" ? "": router.asPath)).split("?")[0];
+  const canonicalUrl = (`https://bokeptobrut.pages.dev` + (router.asPath === "/" ? "": router.asPath)).split("?")[0];
 
 
   return (
