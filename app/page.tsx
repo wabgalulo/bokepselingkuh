@@ -2,7 +2,26 @@ import CardList from "@/components/card-list";
 import { DEFAULT_PER_PAGE } from "@/lib/constants";
 import SearchCardList from "@/components/search/search-list";
 import { SITENAME } from "@/lib/constants";
+import { useRouter } from "next/router";
+import Head from "next/head";
 
+function MyApp({ Component, pageProps }) {
+  const router = useRouter();
+  const canonicalUrl = (`https://kizie.co` + (router.asPath === "/" ? "": router.asPath)).split("?")[0];
+
+
+  return (
+    <>
+      <Head>
+        <link rel="canonical" href={canonicalUrl} />
+      </Head>
+      
+      // Other stuff
+    </>
+  );
+}
+
+export default MyApp;
 export default async function Home({
     searchParams,
 }: {
