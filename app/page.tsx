@@ -2,8 +2,6 @@ import CardList from "@/components/card-list";
 import { DEFAULT_PER_PAGE } from "@/lib/constants";
 import SearchCardList from "@/components/search/search-list";
 import { SITENAME } from "@/lib/constants";
-import { useRouter } from "next/router";
-import Head from "next/head";
 
 export default async function Home({
     searchParams,
