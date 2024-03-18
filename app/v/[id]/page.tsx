@@ -60,9 +60,9 @@ export async function generateMetadata(
             title,
             description,
             images: [...previousOgImages, image],
-            alternates: {
-            canonical: `/v/${file.filecode}`,
         },
+        alternates: {
+            canonical: `/v/${file.filecode}`,
         },
     };
 }
