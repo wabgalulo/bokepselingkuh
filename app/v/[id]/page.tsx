@@ -61,10 +61,12 @@ export async function generateMetadata(
             description,
             images: [...previousOgImages, image],
             url: `/v/${file.filecode}`,
-            site_name: `${SITENAME}`
+            site_name: `${SITENAME}`,
             type: `video.other`,
             video:type: `text/html`,
             video:url: `/v/${file.filecode}`,
+            video:tag:`${SITENAME}`,
+            video:tag:`${file.title}`,
         },
         alternates: {
             canonical: `/v/${file.filecode}`,
