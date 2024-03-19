@@ -55,7 +55,6 @@ export async function generateMetadata(
             title,
             description,
             images: [...previousTwImages, image],
-            url: `/v/${file.filecode}`,
         },
         openGraph: {
             title,
@@ -88,7 +87,7 @@ export default async function Video({ params }: PageProps) {
         <div className="grid col-span-full gap-4 md:gap-4 md:mx-10">
             <iframe
                 className="w-full h-[30vh] md:h-[55vh] lg:h-[70vh]"
-                src={`https://${upstream}/${file.protected_embed}`}
+                src={`https://${upstream}${file.protected_embed}`}
                 scrolling="no"
                 title={file.title}
                 frameBorder={0}
