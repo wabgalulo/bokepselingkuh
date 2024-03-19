@@ -14,6 +14,10 @@ export const metadata: Metadata = {
     alternates: {
         canonical: `/`,
     },
+    verification: {
+        google: 'pesrxXN7kZtrUUZkOECVN6vldle4ji4e052MmUaJxOo',
+        yandex: '9d5fe72dfc74025d',
+    },
 };
 
 export const runtime = "edge";
