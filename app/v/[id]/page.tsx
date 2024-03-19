@@ -55,11 +55,13 @@ export async function generateMetadata(
             title,
             description,
             images: [...previousTwImages, image],
+            url: `/v/${file.filecode}`,
         },
         openGraph: {
             title,
             description,
             images: [...previousOgImages, image],
+            url: `/v/${file.filecode}`,
         },
         alternates: {
             canonical: `/v/${file.filecode}`,
