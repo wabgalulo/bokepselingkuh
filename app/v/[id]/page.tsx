@@ -62,7 +62,6 @@ export async function generateMetadata(
             images: [...previousOgImages, image],
             url: `/v/${file.filecode}`,
             type: `video.other`,
-            type: `text/html`,
             tag: `${SITENAME}`,
             tag: `${file.title}`,
         },
