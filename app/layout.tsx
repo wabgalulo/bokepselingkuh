@@ -11,6 +11,7 @@ export const metadata: Metadata = {
     title: `${SITENAME} Video Bokep Indo Jepang Barat Viral Terbaru`,
     description: `${SITENAME} Video bokep indo jepang indonesia barat terbaru viral korea simontok china tante live sma paksa ngentot abg jilbab cewek bocil smp pijat pelajar.`,
     metadataBase: new URL("https://bokeptoge.pages.dev"),
+    images: `https://1.bp.blogspot.com/-0Lzrb1wLbUo/YRNiLprxivI/AAAAAAAAAqo/U4x2LKpxxVcEqlq1iezVoPRU_AxrmQIFQCNcBGAsYHQ/s0/AV%2BThumbnail.webp`,
     alternates: {
         canonical: `/`,
     },
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
         description: `${SITENAME} Video bokep indo jepang indonesia barat terbaru viral korea simontok china tante live sma paksa ngentot abg jilbab cewek bocil smp pijat pelajar.`,
         images: `https://1.bp.blogspot.com/-0Lzrb1wLbUo/YRNiLprxivI/AAAAAAAAAqo/U4x2LKpxxVcEqlq1iezVoPRU_AxrmQIFQCNcBGAsYHQ/s0/AV%2BThumbnail.webp`,
         url: `/`,
+        type: `website`,
     },
     verification: {
         google: 'pesrxXN7kZtrUUZkOECVN6vldle4ji4e052MmUaJxOo',
