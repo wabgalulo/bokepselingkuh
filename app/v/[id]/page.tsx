@@ -63,9 +63,9 @@ export async function generateMetadata(
             url: `/v/${file.filecode}`,
             site_name: `${SITENAME}`,
             type: `video.other`,
-            video:url: `/v/${file.filecode}`,
-            video:tag:`${SITENAME}`,
-            video:tag:`${file.title}`,
+            type: `text/html`,
+            tag: `${SITENAME}`,
+            tag: `${file.title}`,
         },
         alternates: {
             canonical: `/v/${file.filecode}`,
