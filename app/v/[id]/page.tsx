@@ -30,6 +30,7 @@ export async function generateMetadata(
     parent: ResolvingMetadata
 ): Promise<Metadata> {
     const data = await doodstream.getFile({ file_code: params.id as string });
+     const upstream = await doodstream.getUpstream();
     if (data.status !== 200) {
         return {
             title: data.msg,
