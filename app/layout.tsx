@@ -8,7 +8,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 const font = Nunito({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-    title: SITENAME,
+    title: SITENAME Video Bokep Indo Jepang Barat Viral Terbaru,
     description: `${SITENAME} Video bokep indo jepang indonesia barat terbaru viral korea simontok china tante live sma paksa ngentot abg jilbab cewek bocil smp pijat pelajar.`,
     metadataBase: new URL("https://bokeptoge.pages.dev"),
     alternates: {
