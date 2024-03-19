@@ -39,6 +39,8 @@ export async function generateMetadata(
             title,
             description,
             images: [...previousOgImages, image],
+            url: `/`,
+            type: `website`,
         },
          alternates: {
             canonical: `/c/${fld_id}`,
