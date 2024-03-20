@@ -40,11 +40,7 @@ export async function generateMetadata(
 
     const file = data.result[0];
     const title = `${file.title} - ${SITENAME}`;
-    const description = `${file.title} - Duration: ${humanDuration(
-        file.length
-    )} - Views: ${file.views} views - Size: ${humanSize(
-        file.size
-    )} - Uploaded On ${new Date(file.uploaded + ".000Z").toLocaleString()}`;
+    const description = `${file.title} di ${SITENAME} Video Bokep Indo Jepang Barat Terbaru bocil jilbab smp mama sma hijab abg colmek film tante hot`;
     const image = file.splash_img;
     const previousOgImages = (await parent).openGraph?.images || [];
     const previousTwImages = (await parent).twitter?.images || [];
@@ -86,8 +82,44 @@ export default async function Video({ params }: PageProps) {
     }
 
     const file = data.result[0];
+const jsonLd = {
+        '@context': 'https://schema.org',
+        '@type': 'VideoObject',
+        name: `${file.title} - ${SITENAME}`,
+        thumbnailUrl: file.splash_img,
+        description: `${file.title} di ${SITENAME} Video Bokep Indo Jepang Barat Terbaru bocil jilbab smp mama sma hijab abg colmek film tante hot`,
+        url: `https://bokepmeki.pages.dev/v/${file.filecode}`,
+        embedUrl: `https://${upstream}/${file.filecode}`,
+        uploadDate: new Date(
+            file.uploaded + ".000Z"
+        ).toISOString(),
+        }
+        const jsonLd2 = {
+        '@context': 'https://schema.org',
+        '@type': 'WebPage',
+        headline: `${file.title} - ${SITENAME}`,
+        image: file.splash_img,
+        thumbnailUrl: file.splash_img,
+        description: `${file.title} di ${SITENAME} Video Bokep Indo Jepang Barat Terbaru bocil jilbab smp mama sma hijab abg colmek film tante hot`,
+        url: `https://bokepmeki.pages.dev/v/${file.filecode}`,
+        datePublished: new Date(
+            file.uploaded + ".000Z"
+        ).toISOString(),
+        }
     return (
         <div className="grid col-span-full gap-4 md:gap-4 md:mx-10">
+        <section>
+        {/* Add JSON-LD to your page */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd2) }}
+        />
+        {/* ... */}
+        </section>
             <iframe
                 className="w-full h-[30vh] md:h-[55vh] lg:h-[70vh]"
                 src={`https://${upstream}${file.protected_embed}`}
@@ -167,7 +199,7 @@ export default async function Video({ params }: PageProps) {
                     </div>
                 </CardContent>
             </Card>
-            <p>Video bokep indo terbaru viral {file.title} di {SITENAME} Video Bokep Indo Jepang Barat Terbaru bocil jilbab smp indonesia mama sma hijab abg colmek film tante twitter asia hot download live stw situs nonton link sd crot playbokep simontok bokepin montok baru perawan anak kecil telegram selingkuh ojol cantik gay vidio lokal artis pelajar janda streaming jepang barat korea japan jav cina japanese china rusia arab india thailand hd anime hentai bokepind gudang avtub pijat sotwe rumah pemerkosaan inggris xpanas pure tobrut vcs ngintip binor remaja yandex update perselingkuhan wiki raja full com porno indoh</p>
+            <p>Video bokep indo terbaru viral {file.title} di {SITENAME} Video Bokep Indo Jepang Barat Terbaru bocil jilbab smp mama sma hijab abg colmek film tante hot twitter asia download live stw situs indonesia nonton link sd crot playbokep simontok bokepin montok baru perawan anak kecil telegram selingkuh ojol cantik gay vidio lokal artis pelajar janda streaming jepang barat korea japan jav cina japanese china rusia arab india thailand hd anime hentai bokepind gudang avtub pijat sotwe rumah pemerkosaan inggris xpanas pure tobrut vcs ngintip binor remaja yandex update perselingkuhan wiki raja full com porno indoh</p>
             <h2 className="text-2xl font-bold text-center my-4">
                 Related Video {file.title}
             </h2>
