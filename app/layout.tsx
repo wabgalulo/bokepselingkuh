@@ -8,9 +8,9 @@ import { ThemeProvider } from "@/components/theme-provider";
 const font = Nunito({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-    title: `${SITENAME} Video Bokep Indo Jepang Barat Viral Terbaru`,
+    title: `${SITENAME} Video Bokep Indo Viral Terbaru`,
     description: `${SITENAME} Video bokep indo jepang indonesia barat terbaru viral korea simontok china tante live sma paksa ngentot abg jilbab cewek bocil smp pijat pelajar.`,
-    metadataBase: new URL("https://bokepsin.pages.dev"),
+    metadataBase: new URL("https://bokeplive.pages.dev"),
     alternates: {
         canonical: `/`,
     },
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     },
     verification: {
         google: 'kAZh5T69CkuAZIls2sTDJy_nlGta_Ac5n3lbADWvCVU',
-        yandex: '92ccd37ed1af9518',
+        yandex: '6e346a42cf18829e',
     },
 };
 
