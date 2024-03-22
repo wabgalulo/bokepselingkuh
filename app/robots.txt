@@ -5,4 +5,4 @@ Disallow:
 # Allow all crawlers
 User-agent: *
 Allow: /
-Sitemap: https://smpbugil.pages.dev/sitemap.xml
+Sitemap: https://bocahviral.pages.dev/sitemap.xml
