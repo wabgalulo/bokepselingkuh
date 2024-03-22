@@ -5,4 +5,4 @@ Disallow:
 # Allow all crawlers
 User-agent: *
 Allow: /
-Sitemap: https://indojilbab.pages.dev/sitemap.xml
+Sitemap: https://bokepmemek.pages.dev/sitemap.xml
