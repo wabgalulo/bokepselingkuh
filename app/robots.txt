@@ -5,4 +5,4 @@ Disallow:
 # Allow all crawlers
 User-agent: *
 Allow: /
-Sitemap: https://bokepadek.pages.dev/sitemap.xml
+Sitemap: https://bocil-viral.pages.dev/sitemap.xml
