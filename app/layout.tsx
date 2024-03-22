@@ -10,7 +10,7 @@ const font = Nunito({ subsets: ["latin"] });
 export const metadata: Metadata = {
     title: `${SITENAME} Video Bokep Indo Jepang Barat Viral Terbaru`,
     description: `${SITENAME} Video bokep indo jepang indonesia barat terbaru viral korea simontok china tante live sma paksa ngentot abg jilbab cewek bocil smp pijat pelajar.`,
-    metadataBase: new URL("https://togesmp.pages.dev"),
+    metadataBase: new URL("https://smpbugil.pages.dev"),
     alternates: {
         canonical: `/`,
     },
@@ -21,8 +21,8 @@ export const metadata: Metadata = {
         type: `website`,
     },
     verification: {
-        google: 'RL0jXrUcGDXNI_1ce2MPKcjb45YeOKrSBkUpLsuKnoU',
-        yandex: '43367de782a1f17b',
+        google: 'DUhsMsza3VzhnR3RQM3QGMr0fx86xdFkB0ZNjuCcUtQ',
+        yandex: 'f0352791e06451b1',
     },
 };
 
