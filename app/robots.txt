@@ -5,4 +5,4 @@ Disallow:
 # Allow all crawlers
 User-agent: *
 Allow: /
-Sitemap: https://bokepabg.pages.dev/sitemap.xml
+Sitemap: https://bokepbaru.pages.dev/sitemap.xml
