@@ -1,4 +1,4 @@
-# bokep crot 🎥
+# bokep remaja 🎥
 
 An SSR video streaming frontend which uses doodstream.com as a backend. It is built using [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/).
 
@@ -16,7 +16,7 @@ An SSR video streaming frontend which uses doodstream.com as a backend. It is bu
 
 ## Live Demo
 
-A live demo of the project is available at [https://bokepcrot.pages.dev](https://bokepcrot.pages.dev/).
+A live demo of the project is available at [https://bokepremaja.pages.dev](https://bokepremaja.pages.dev/).
 
 ## Configuration
 
@@ -24,7 +24,7 @@ The following environment variables are required to run the project:
 
 -   `DOODSTREAM_API_KEY`: API key for doodstream.com
 -   `DOODSTREAM_API_URL`: API URL for doodstream.com (default: `https://doodapi.com`)
--   `SITENAME`: Name of the website (default: `bokep crot`)
+-   `SITENAME`: Name of the website (default: `bokep remaja`)
 
 ## Development
 
