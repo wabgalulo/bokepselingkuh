@@ -1,5 +1,5 @@
 import "./globals.css";
-import Script from 'next/script';
+import Script from "next/script";
 import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
 import { SITENAME } from "@/lib/constants";
@@ -45,7 +45,7 @@ export default function RootLayout({
             "name":"admin",
             "url":"https://bokepselingkuh.pages.dev"
             },
-            "foundingDate":"2024-03-16"
+            "foundingDate":"2024-04-07"
         }
         const jsonLd1 = {
             "@context": "https://schema.org",
@@ -56,7 +56,7 @@ export default function RootLayout({
         "image": "https://bokepselingkuh.pages.dev/favicon.ico",
         "potentialAction":{
             "@type":"ReadAction",
-            "target":"https://bokepselingkuh.pages.dev/"}
+            "target":"https://bokepselingkuh.pages.dev"}
         }
         const jsonLd2 = {
             "@context": "https://schema.org",
