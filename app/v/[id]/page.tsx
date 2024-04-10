@@ -10,7 +10,6 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Metadata, ResolvingMetadata } from "next";
 import { Table, TableBody, TableCell, TableRow } from "@/components/ui/table";
 import { humanDuration, humanSize } from "@/lib/utils";
-
 import { Button } from "@/components/ui/button";
 import CopyButton from "@/components/copy-button";
 import LikeButton from "@/components/like-button";
