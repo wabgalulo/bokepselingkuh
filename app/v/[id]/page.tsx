@@ -214,7 +214,6 @@ const jsonLd = {
                                 </TableRow>
                             </TableBody>
                         </Table>
-                        </div>
                     </div>
                 </CardContent>
             </Card>
